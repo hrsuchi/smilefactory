@@ -1,0 +1,142 @@
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .marcoblanco2 img{
+    width: 120px !important;
+  }
+
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .marcoblanco2 img{
+    width: 120px !important;
+  }
+  .flexer{
+    display: block !important;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+  #tabsdocs .item .row div{
+    right: 0% !important;
+    top: 0% !important;
+  }
+  #tabsdocs .item .row img{
+    left: 0% !important;
+  }
+  .modal-dialog {
+    width: 90% !important;
+  }
+  header#promo h1{
+    font-size: 56px !important;
+  }
+  .marcoblanco2 img{
+    width: 120px !important;
+  }
+  h2{
+    font-size: 42px !important;
+  }
+  .flexer{
+    display: block !important;
+  }
+}
+@media all and (max-width: 480px) {
+  #tabsdocs .item .row div{
+    right: 0% !important;
+    top: 0% !important;
+  }
+  #tabsdocs .item .row img{
+    left: 0% !important;
+  }
+  #tabsdocs .ui-tabs-tab *
+  {
+    font-size: 12px !important;
+  }
+  #tabsdocs .item{
+    height: 600px;
+  }
+  .modal-dialog {
+    width: 90% !important;
+  }
+  .col{
+    padding: 0.4em !important;
+  }
+  .quickaccess {
+    font-size: 8px !important;
+  }
+  .marcoblanco{
+    padding: 1em !important;
+  }
+  h2{
+    font-size: 15px !important;
+  }
+  .conhead p .btn{
+    width: 153px !important;
+  }
+  .formulario .btn{
+    width: 46% !important;
+  }
+  header#promo h1{
+    font-size: 28px !important;
+  }
+  .navbar-fixed-top .navbar-toggle{
+    top:20px;
+  }
+  .navbar-fixed-top .navbar-brand{
+    top:25px;
+    position: relative;
+  }
+  .marcoblanco2 img{
+    width: 120px !important;
+  }
+  .flexer{
+    display: block !important;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #Canales{
+    margin-bottom: 200px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  #Canales{
+    margin-bottom: 200px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+  .titularsection img{
+    width:66%;
+  }
+}
+
+@media all and (min-width: 613px) and (max-width: 767px){
+  .titularsection img{
+    width:66%;
+  }
+}
+
+@media all and (max-width: 612px) {
+  .titularsection img{
+    width:66%;
+  }
+  #razones .titularsection{
+    font-size: 2.5em;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .flechas{
+    top: 200px !important;
+  }
+}

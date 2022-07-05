@@ -1,0 +1,881 @@
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2, h3, h4, h5{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default{
+  background: #ffffff;
+  border: none;
+}
+.navbar-default *{
+  color: #000;
+  font-weight: bold;
+}
+header#index{
+  background-image:url('../img/smile2.jpg');
+  color:white;
+  background-position: center center;
+  background-size: cover;
+  padding: 8%;
+}
+
+.bg1{
+  padding: 4em 0 6em 0;
+}
+
+.marcoblanco{
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  padding: 3em;
+}
+
+.conhead p .btn{
+  background-color:transparent;;
+  color:black;
+  border-radius: 0px;
+  border:5px solid white;
+  width:250px;
+  color: white;
+  -webkit-transition-duration: 0.5s;
+   -moz-transition-duration: 0.5s;
+   transition-duration: 0.5s;
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   transition-delay: 0s;
+}
+
+.conhead p .btn:hover{
+  background-color:white;
+  color: #9e9e9e;
+  border:5px solid white;
+}
+
+
+#btninfheader:active{
+  background-color:#cacaca;
+}
+
+
+#botonesinicio{
+  margin:0px;
+  padding:0px;
+}
+
+.imagen{
+  width:60%;
+  margin:20px;
+  padding:2em;
+  border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 10px solid #000000;
+}
+
+.sect3{
+  color:black;
+  background-size: cover;
+  background-image:url('../img/smile3.jpg');
+  margin:0px;
+  padding:0px;
+  line-height:100px;
+  /*-webkit-filter: brightness(50%);*/
+}
+#contacthome{
+  background-color:#ebb73c;
+  padding: 4em 0 5em 0;
+}
+
+#contacthome form input, textarea{
+  margin: .5em 0;
+  border: none;
+  padding: .5em;
+  color:black;
+}
+
+.lineablanca{
+  width: 100%;
+  height: 3px;
+  margin: 1.5em 0;
+  background-color: white;
+}
+
+.btnform{
+  margin-top: 1.5em;
+  background-color: #7200ff !important;
+}
+
+#sectcontactos a.btn{
+  border-radius:0px;
+}
+
+.col{
+  margin: 0;
+  padding: 1.7em;
+}
+#col1{
+  background-color:#fc6100;
+}
+
+#col2{
+  background-color:#ff8600;
+}
+
+#col3{
+  background-color:#e8990c;
+}
+
+#col4{
+  background-color:#e5ac0d;
+}
+
+.quickaccess{
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.itemhome{
+  margin: 2em 0;
+  padding: 0 2em;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.fina{
+  color:white;
+  width:100%;
+  height:265px;
+  padding:2px;
+  margin-top:13px;
+  border:1px solid white;
+}
+
+.comi{
+  padding:25px;
+}
+
+.comillas img{
+  width:80px;
+}
+
+.formulario{
+  padding:20px;
+  color:white
+}
+
+.formulario input, textarea{
+  width:100%;
+  margin:2px;
+}
+
+
+.formulario .btn{
+  border-radius:0px;
+  width:35%;
+  height:40px;
+  background-color:#4400ff;
+}
+
+.mision-vision{
+  width:50%;
+  height:270px;
+  padding:20px;
+  border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 10px solid #000000;
+}
+
+
+.beneficiosimg
+{
+  width: 50%;
+}
+
+
+.beneficiosimg:hover
+{
+  filter: drop-shadow(3px 9px 11px #fafafa);
+}
+
+
+.nopadding{
+  overflow:hidden;
+  padding: 0;
+}
+
+
+#sectioncommentscarousel{
+  background-image:url('../img/smile3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#commentscarousel *{
+  color: #fff;
+}
+/*#commentscarousel h1{
+  position: relative;
+  top: 185px;
+}
+#quotescarouselcomments{
+  position: relative;
+  top: 125px;
+}*/
+#commentscarousel .item{
+  padding: 200px 0;
+  width: 100%;
+  color: #fff;
+}
+
+
+.servdestimg
+{
+  width: 100%;
+}
+
+
+.ui-tabs .ui-tabs-panel{
+  padding: 0px !important;
+}
+
+
+#nuestroequiposection{
+  margin-top:50px;
+}
+
+#nuestroequiposection .ui-widget-content{
+  min-height: 370px;
+}
+
+
+#tabsdocs .item .row div{
+  /*position: absolute;
+  left: 423px;*/
+  right: 8%;
+  top: 26%;
+  position: absolute;
+  color: gray;
+
+}
+
+#tabsdocs .item .row .especialist{
+  margin-top:65px !important;
+  position: inherit !important;
+}
+
+#tabsdocs .item .row img{
+  left: 0%;
+}
+
+#instalaciones{
+  margin-top:50px;
+}
+
+#Metal {
+    padding: 5em 3em 2em 5em;
+    background-color: #f8f8f8;
+}
+
+#ubicaciones img, #instalaciones img{
+  width: 100%;
+}
+
+#ubicaciones{
+  margin-top: 30px;
+  color:white;
+  background-color:#ebb73c;
+}
+
+#ubicaciones h2{
+  margin-top:35px;
+  font-size: 3.5em;
+  font-weight: bold;
+  color:white;
+}
+
+#ubicaciones .row{
+  padding:20px;
+}
+
+#ubicaciones img{
+  width:100%;
+  height:230px;
+  border:5px solid white;
+  -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+#ubicaciones h4{
+  margin:30px 0px 40px 0px;
+  font-size:25px;
+}
+
+#ubicaciones a{
+  color:white;
+}
+
+#ubicaciones img:hover{
+  opacity:0.8;
+}
+
+#ubicaciones h4:hover{
+  cursor: pointer;
+}
+
+#razones ol li{
+  list-style-type: decimal;
+}
+
+.ui-widget-header, .ui-widget.ui-widget-content{
+  background: transparent !important;
+  border: transparent !important;
+}
+
+.titularsection{
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.iconitos{
+  display: flex;
+  display: -webkit-flex;
+}
+
+.iconitos a img{
+  margin: 0 .7em;
+}
+
+#tabsdocs .carousel-control.left, #tabsdocs .carousel-control.right{
+  background-image: none !important;
+}
+
+
+#tabsdocs .fa-caret-right, #tabsdocs .fa-caret-left{
+  top: 50%;
+  position: absolute;
+}
+
+
+#tabsdocs .ui-tabs-tab{
+  background: transparent;
+  border: none;
+}
+
+
+#tabsdocs .ui-tabs-tab *{
+  color: #000;
+  font-size: 20px;
+}
+
+
+#tabsdocs .ui-tabs-active.ui-state-active *{
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+#tabsdocs .ui-tabs .ui-tabs-nav {
+    text-align: center;
+}
+
+
+#tabsdocs .ui-tabs .ui-tabs-nav li {
+    float: none !important;
+    display: inline-block;
+}
+
+
+#tabsdocs .ui-tabs-active.ui-state-active:focus{
+  border: none;
+}
+
+
+.promoimg, .div100percent{
+  width: 100%;
+}
+
+.img100percent{
+  width: 70%;
+  margin: 1em 0;
+}
+
+.img100percent1{
+  width: 90%;
+  margin: 1em 0 0 0;
+}
+
+.norightpadding{
+  padding-right:0;
+}
+.noleftpadding{
+  padding-left:0;
+}
+.bandwhite{
+  width:100%;
+  height:5px;
+  background-color:white;
+}
+
+#contacto{
+  margin-top:60px;
+  margin-bottom:80px;
+}
+
+.backcont{
+  background-color:#020202;
+  color:white;
+}
+
+#band{
+  width:100%;
+  background-color:white;
+  height:1px;
+  margin-top:-2px;
+  margin-bottom:7px;
+}
+
+#logo{
+  width: 90px;
+}
+
+
+.navbar-nav{
+  margin-top: 10px;
+}
+.navbar-nav li:hover{
+  text-decoration: underline;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border: none;
+}
+#logob{
+  width:70%;
+}
+
+.mismocolor{
+  background-color:#f7f7f7;
+}
+
+.padding-razones{
+  padding:1.5em;
+}
+
+/*-----------------------------------------contacto CSS-------------------------------------*/
+
+#miraflores{
+  margin:0px;
+  color:white;
+  background-image:url('../img/mira.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding:150px 0px 150px 0px;
+}
+
+#pradera{
+  color:white;
+  background-image:url('../img/pradera.jpg');
+  background-size: cover;
+  padding:150px 0px 150px 0px;
+  margin:0px;
+}
+
+#oakland{
+  color:white;
+  background-image:url('../img/oakland.jpg');
+  background-size: cover;
+  background-position:center center;
+  padding:150px 0px 150px 0px;
+  margin:0px;
+}
+
+#eskala{
+  color:white;
+  background-image:url('../img/eskala2.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  padding:150px 0px 150px 0px;
+  margin:0px;
+}
+
+.frm{
+  margin-top:20px;
+}
+
+.frm input{
+  width:100%;
+  margin:10px;
+  border:1px solid black;
+}
+
+.frm textarea{
+  width:100%;
+  margin:10px;
+  border:1px solid black;
+}
+
+.frm .frame{
+  width:100%;
+  margin:3px;
+}
+
+.lineanegra{
+  width:100%;
+  background-color:black;
+  height:1px;
+  margin-bottom:20px;
+}
+
+.frm input::-webkit-input-placeholder{
+  padding-left:15px;
+}
+
+#btn-frm{
+  margin-top:15px;
+}
+
+#sectcontactos .btn{
+color:white;
+border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 0px solid #000000;
+}
+
+#sectcontactos .btn:hover {
+ color: white;
+}
+
+#sectcontactos .boton1:hover span{
+  color:#ff6100;
+}
+
+#sectcontactos .boton2:hover span{
+  color:#ff8600;
+}
+
+#sectcontactos h2{
+  line-height:.8;
+  font-size:80px;
+}
+
+#sectcontactos p{
+  font-size:20px;
+}
+
+.buttonimage{
+  background: none;
+  border: none;
+}
+
+.modal-dialog {
+    width: 900px;
+}
+
+.whitetext, .whitetext *{
+ color: #fff;
+}
+
+.planes:nth-child(odd){
+  background: #dadada !important;
+}
+
+.planes:nth-child(even){
+  background: #cacaca !important;
+}
+
+@keyframes salto {
+    0% {top: 0px;}
+    50% {top: -10px;}
+    100% {top: 0px;}
+}
+
+.planes .beneficiosimg:hover{
+  position: relative;
+  animation-name: salto;
+  animation-duration: 0.2s;
+  animation-iteration-count: 2;
+  filter: none;
+}
+
+.quickaccess{
+  font-size: 12px;
+}
+
+.whitetext, .whitetext *{
+   color: #fff;
+}
+
+.nomargin{
+  margin: 0;
+}
+
+
+ .servicios_row{
+   background-color: #fff;
+   padding: 0;
+   margin:0;
+ }
+
+ .servicios_col1{
+  padding: 8em 3em 0 5em;
+  background-color: #f8f8f8;
+ }
+
+ .servicios_col2{
+  padding: 6em 3em 0 5em;
+  background-color: #f2f2f2;
+  height: 100% !important;
+ }
+
+ .textoinicial{
+  padding: 8em 1em;
+ }
+
+ .imgserv{
+  margin: 0;
+  padding: 0;
+ }
+
+ #chapuz{
+  margin-bottom: 37px;
+ }
+
+#frmira{
+  color:white;
+  background-color:#ff8600;
+ }
+
+#frmira form input{
+   margin: .5em 0;
+   border: none;
+   padding: .5em;
+ }
+
+ #frmira form textarea{
+    margin: .5em 0;
+    border: none;
+    padding: .5em;
+  }
+
+.boton1{
+  background-color:#ff6100;
+}
+
+.boton2{
+  background-color:#fc8600;
+}
+
+#frpradera{
+  color:white;
+  background-color:#ff6100;
+ }
+
+#frpradera form input{
+   margin: .5em 0;
+   border: none;
+   padding: .5em;
+ }
+
+ #frpradera form textarea{
+    margin: .5em 0;
+    border: none;
+    padding: .5em;
+}
+
+#froakland{
+    color:white;
+    background-color:#ff8600;
+}
+
+#froakland form input{
+    margin: .5em 0;
+    border: none;
+    padding: .5em;
+}
+
+#froakland form textarea{
+    margin: .5em 0;
+    border: none;
+    padding: .5em;
+}
+
+#freskala{
+    color:white;
+    background-color:#ff6100;
+ }
+
+#freskala form input{
+    margin: .5em 0;
+    border: none;
+    padding: .5em;
+}
+
+#freskala form textarea{
+    margin: .5em 0;
+    border: none;
+    padding: .5em;
+}
+
+#contfrm form p{
+  padding-bottom:30px;
+}
+
+#contfrm dd{
+  padding-top:20px;
+}
+
+#contfrm input, textarea{
+  color:black;
+}
+
+#headcontactos{
+  color:white;
+  width:100%;
+  background-image:url('../img/banner2.jpg');
+  background-size: cover;
+  background-position:center center;
+  background-attachment:fixed;
+  padding-bottom:75px;
+  padding-top:75px;
+  margin-bottom:3px;
+}
+
+#headcontactos h1{
+  font-size:70px;
+}
+
+.split_vert1{
+  padding: 4em 2.5em;
+  background-color: #fff;
+}
+
+.split_vert2{
+  padding: 4em 2.5em;
+  background-color: #f7f7f7;
+}
+
+.split_vert3{
+  padding: 4em 2.5em;
+  background-color: #f7f7f7;
+}
+
+.titular_tratamientos{
+  margin: 2em 0;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+/*-------------------------SERVICIOS--------------------*/
+
+header#tratamientos{
+  background-image:url('../img/bannerdental.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center center;
+  padding-top:80px;
+  padding-bottom:80px;
+}
+.navbar-header{
+  height: 85px;
+}
+
+.flexer{
+  display: flex !important;
+}
+
+header#nosotros{
+  background-image:url('../img/nosotros.png');
+  background-size:cover;
+  background-attachment:fixed;
+  padding-top:80px;
+  padding-bottom:80px;
+  position: center center;
+}
+
+.modal-header{
+  background-color:#ebb73c;
+  color:white;
+}
+
+.modal-footer button a{
+  color:black;
+}
+
+.planes-financiamientos{
+  color:white;
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 3em;
+  background-size: cover;
+  background-image: url('../img/planes.jpg');
+}
+
+.plan-orto{
+  color:white;
+  padding: 3em;
+  background-size: cover;
+  background-image: url('../img/plan-orto.jpg');
+}
+
+.plan-orto h3{
+  font-size:2.5em;
+}
+
+.plan-dental{
+    margin-top: 50px;
+}
+
+.plan-dental2{
+  color:white;
+  padding: 3em;
+  background-size: cover;
+  background-image: url('../img/dental2.jpg');
+}
+
+.plan-dental2 h3{
+  font-size:2.5em;
+}
+
+.muela{
+  width:50% !important;
+}
+
+.endodoncia{
+  width:100%;
+}
+
+.estacion{
+  width:39% !important;
+}
+
+.video{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.video iframe{
+  border:5px solid black;
+}
+
+.borde-derecho{
+  border-right: 1px solid #eeeeee;
+  height: 300px;
+}

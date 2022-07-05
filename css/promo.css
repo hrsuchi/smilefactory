@@ -1,0 +1,106 @@
+header#promo{
+  background-image:url('../img/smile3.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+.cinta{
+  width:100%;
+  color:white;
+  background-color:#ff6100;
+  padding-top:50px;
+  padding-bottom:50px;
+  filter:alpha(opacity=50);
+  opacity:0.8;
+}
+
+.cinta h2{
+  font-size:80px;
+}
+
+#sect1{
+  margin:0;
+  color:white;
+}
+
+#sect1 p a{
+  color:white;
+}
+
+#sect1 p a:hover{
+  color:#054f6d;
+}
+
+
+.marcoblanco2{
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  padding-top:40px;
+  padding-bottom:30px;
+  margin-top:-35px;
+  margin-bottom:-35px;
+}
+
+.marcoblanco2 img
+{
+  width: 10%;
+  margin-bottom:-20px;
+  padding: 8px;
+}
+
+.imagen2{
+  border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 5px solid white;
+}
+
+#promo1{
+  background-color:#fc6100;
+}
+
+#promo2{
+  background-color:#ff8600;
+}
+
+#promo3{
+  background-color:#e8990c;
+}
+
+#promo4{
+  background-color:#e5ac0d;
+}
+
+#imgpromo{
+  padding:20px;
+}
+
+#imgpromo img{
+  width:100%;
+  padding-bottom:10px;
+  -webkit-transition:1s;
+}
+
+#imgpromo img:hover{
+  cursor:pointer;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.fb-share-button{
+}
+
+.fb-share-button:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#razones{
+  margin-top:45px;
+  margin-bottom:30px;
+}
